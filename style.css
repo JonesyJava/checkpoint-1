@@ -1,0 +1,143 @@
+.bg-a{
+    background-image: url(https://wallpapercools.com/wp-content/uploads/2020/01/4k-astronaut-wallpaper-1920-x-1080.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.stick-top{
+    position: sticky;
+}
+
+.become-border{
+    border: 5px solid rgb(81, 199, 211);
+    border-style: outset;
+}
+
+.bg-oracle{
+    background-color: #f38a9d;
+}
+
+.text-oracle{
+    color: #f38a9d;
+}
+
+.icon-flipped{
+        transform: scaleX(-1);
+        -moz-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+}
+
+.pad-one{
+    padding: 4rem;
+}
+
+.position-overflow{
+    top: 50px;
+    right: 20px
+}
+
+.bg-mercury{
+    background-color: black;
+}
+
+.border-mercury{
+    border: 10px solid rgb(81, 199, 211);
+    border-style: outset;
+}
+
+.mercury-card-dimensions{
+    height: 20rem;
+    margin-top: 6rem;
+}
+
+.bg-venus{
+    background-color: black;
+}
+
+.venus-position{
+    padding-top: 85px;
+    padding-left: 125px;
+    padding-bottom: 75px;
+}
+
+.img-venus{
+    padding-top: 4rem;
+    height: 21rem;
+    width: 35rem;
+}
+
+.border-earth{
+    border: 5px solid rgb(0, 0, 0);
+    border-style: outset;
+}
+
+.earth-cards{
+    justify-content: space-around;
+}
+
+.earth-box{
+    height: 27rem;
+    width: 20rem;
+}
+
+.small-box{
+    height: 16rem;
+}
+
+.lower-box{
+    margin-top: 3rem;
+}
+
+.border-jupiter{
+    border: 10px solid rgb(81, 199, 211);
+    border-style: outset;
+}
+
+.pad-two{
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      color: rgb(0, 0, 0);
+    }
+
+    .bg-a{
+        height: unset;
+        padding-bottom: 2rem;
+    }
+
+    .position-overflow{
+        top: unset;
+        right: unset;
+    }
+    .mercury-card-dimensions{
+        height: 13rem;
+        margin-top: unset;
+    }
+    .pad-one{
+        padding: 1rem;
+    }
+
+    .earth-box{
+        height: fit-content;
+    }
+
+    .mobile-box{
+        margin-bottom: 2rem;
+    }
+
+    .small-box{
+        height: fit-content;
+    }
+
+    .venus-position{
+            padding-top: 35px;
+            padding-left: 40px;
+            padding-bottom: 45px;
+    }
+    .pad-two{
+        margin-left: unset;
+    }
+}

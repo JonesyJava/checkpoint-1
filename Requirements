@@ -1,0 +1,15 @@
+Requirements:
+[X] Sticky Navbar on scroll
+[X] The Text Over Image is hidden on mobile (@media Rule)
+[X] The Card spills out of the row on medium and larger screens
+[X] Must use external Icon library (FontAwesome, Material Icons, etc.)
+[X] Specified elements order changes based on screen size
+[X] Cards are vertically centered with the center card larger for emphasis
+[X] Appropriate use of Margins and padding
+
+Stretch Goals:
+[X] Add some CSS Animations to the page
+[X] Utilize scroll to in page navigation
+[] Swap one of your images for a <video>
+
+
